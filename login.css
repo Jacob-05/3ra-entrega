@@ -224,3 +224,9 @@ body {
   background-color: #f09300; 
 }
 
+p {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 689;
+  font-style: normal;
+}
