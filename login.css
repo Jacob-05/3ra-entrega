@@ -1,0 +1,226 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3C506D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background-color: #FDFDF3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 30px;
+    flex-direction: row-reverse; 
+  }
+  
+  .login-form {
+    width: 350px;
+   
+  }
+  
+  .login-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #f09300;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form a {
+    color: #f59e0b;
+    text-decoration: none;
+  }
+  
+  .login-form a:hover {
+    text-decoration: underline;
+  }
+  
+  .input-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-field i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f59e0b;
+    font-size: 1.2rem;
+  }
+  
+  .input-field input {
+    width: 90%;
+    padding: 15px 20px;
+    border: none;
+    background: #FBBF1D;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+  }
+  
+  .input-field input:focus {
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    background-color: #3C506D;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .login-form button:hover {
+    background-color: #f09300; 
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-login {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease; 
+  }
+  
+  .social-icons a:hover {
+    color: #f59e0b; 
+  }
+  
+  .app-download {
+    text-align: center;
+    font-size: 1rem;
+    position: absolute; 
+    bottom: 20px;
+    right: 20px;
+    width: 255px;
+    color: #f09300;
+  }
+  
+  .app-download p {
+    margin-bottom: 20px;
+  }
+  
+  .app-store,
+  .google-play {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .app-store img,
+  .google-play img {
+    width: 150px;
+  }
+  
+  .login-form i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f59e0b;
+    font-size: 1.2rem;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .social-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-button img {
+  width: 30px;
+}
+
+.social-button:hover {
+    transform: translateY(-2px);
+    align-items: center;
+}
+
+.social-button.fb:hover {
+    background-color: #74a7c9;
+}
+
+.social-button.tw:hover {
+    background-color: #625d5d;
+}
+
+.social-button.gg:hover {
+    background-color: #77c18d;
+}
+
+
+.login-form button {
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  background-color: #3C506D;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.login-form button:hover {
+  background-color: #f09300; 
+}
+
