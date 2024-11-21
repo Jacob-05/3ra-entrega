@@ -1,4 +1,3 @@
-
 let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
 
 
